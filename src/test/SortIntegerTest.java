@@ -1,4 +1,8 @@
+package src.test;
 import org.junit.Test;
+
+import src.main.SortInteger;
+
 import static org.junit.Assert.*;
 
 public class SortIntegerTest {
