@@ -20,12 +20,12 @@ public class TimerTest {
     @Test
     public void testCountdownOneSecond() {
         Timer timer = new Timer();
-        timer.setMinute(0);
+        timer.setMinute(2);
         timer.setSecond(3);
         
         timer.updateTimerCountdown();
 
-        assertEquals(0, timer.getMinute());
+        assertEquals(2, timer.getMinute());
         assertEquals(2, timer.getSecond());
 
     }
