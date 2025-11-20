@@ -2,10 +2,6 @@ package src.main;
 public class SortInteger {
     public static void sort(int[] num){
         
-        
-        
-        //arrary with numbers to test the sorting
-        // int[] num = {5,3,1,6,8,29};
         int tempNum; //temporay variable to store the number
 
         //outer loop to ctrl how many passes we make
@@ -23,5 +19,11 @@ public class SortInteger {
         for (int n : num) {
             System.out.print(n + " "); //prints out sorted numbers
         }
+    }
+
+    //run code :D
+    public static void main(String[] args) {
+        int[] num = {3,2,20,32};
+        sort(num);
     }
 }
